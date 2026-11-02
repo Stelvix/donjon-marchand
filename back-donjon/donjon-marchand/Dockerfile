@@ -1,11 +1,11 @@
 # Utiliser l'image de java temurin
-FROM eclipse-temurin:25-jdk
+FROM eclipse-temurin:25-jre
 
 # Définir le répertoire de travail dans le conteneur
-WORKDIR /donjon-marchand-app
+WORKDIR /app
 
 # Copier le fichier JAR de l'application
-COPY target/donjon-marchand-app.jar app.jar
+COPY target/donjon-marchand-0.0.1-SNAPSHOT.jar app.jar
 
 # Exposer le port sur lequel l'application écoute
 EXPOSE 9003
