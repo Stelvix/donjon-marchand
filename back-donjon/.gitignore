@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Variable d'environnement ###
+
+/back-donjon/.env
