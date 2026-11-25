@@ -3,3 +3,7 @@ spring:
     name: donjon-marchand
   server:
     port: 9003
+  security:
+    user:
+      name: "Theo-Steeven"
+      password: "theo-steeven"
